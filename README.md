@@ -8,7 +8,7 @@ If you have any questions, comments, or suggestions, please feel free to connect
 
 ## **Playing the Game**
 
-Simply open the tic_tac_toe.ipynb notebook, run all cells to define the game functions, then play the game in the last cell.
+Simply open the tic_tac_toe.ipynb notebook, then run all cells to define the game functions and begin playing the game in the last cell.  The game steps are as follows:
 
 1. Player 1 chooses their marker
 2. A random number generator is used to determine which player goes first
