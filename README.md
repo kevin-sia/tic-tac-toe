@@ -8,12 +8,14 @@ If you have any questions, comments, or suggestions, please feel free to connect
 
 ## **Playing the Game**
 
-Simply open the tic_tac_toe.ipynb notebook, then run all cells to define the game functions and begin playing the game in the last cell.  The game steps are as follows:
+Open the tic_tac_toe.ipynb notebook in Jupyter Notebook or JupyterLab.  If neither are installed, web versions are available [here](https://jupyter.org/try).  If you are using Jupyter Notebook or JupyterLab on the web, you will have to upload the notebook to the Jupyter directory.
 
-1. Player 1 chooses their marker
-2. A random number generator is used to determine which player goes first
-3. Players take turns by indicating which position on the game board they want to place their marker on
-	- The position indices are mapped to the keyboard numpad layout (bottom left space is 1, upper right space is 9, etc.)
+Once the notebook is open, run all cells to define the game functions and begin playing the game in the last cell.  The game steps are as follows:
+
+1. Player 1 chooses their marker (X or O), and Player 2 is assigned the marker that wasn't chosen
+2. A random number generator determines which player goes first
+3. Players take turns by indicating which position on the game board they want to place their marker on, attempting to win by filling a row/column/diagonal with only their marker
+4. Once a player wins, they are prompted to replay or not
 
 ---
 
